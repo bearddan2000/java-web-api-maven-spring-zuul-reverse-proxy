@@ -1,0 +1,3 @@
+zuul.routes.api.url=http://nodejs-srv:3000
+
+ribbon.eureka.enabled=false

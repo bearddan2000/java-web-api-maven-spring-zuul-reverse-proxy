@@ -1,0 +1,9 @@
+version: '3'
+services:
+  nodejs-srv:
+    build: nodejs-srv
+
+  java-srv:
+    build: java-srv
+    ports:
+      - "80:8080"
